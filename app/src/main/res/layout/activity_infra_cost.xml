@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".InfraCost">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/daburlogo"
+            />
+
+        <TableRow
+            android:id="@+id/tr150"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            >
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="ROI FORMAT"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:background="#0e1e02"
+            android:textColor="#ffff"
+            />
+        <TableRow
+            android:id="@+id/tr205"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:padding="2.5dp">
+            <ImageView />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HEAD"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#0d2008"
+                android:textColor="#ffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMOUNT"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#0d2008"
+                android:textColor="#ffff"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AMOUNT"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#0d2008"
+                android:textColor="#ffff"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr1"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_height="0dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/avg_business_turnover"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+
+            <EditText
+                android:id="@+id/etTurnover"
+                android:layout_width="80dp"
+                android:gravity="center"
+                android:text="0"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:textColor="#ffff"
+                tools:targetApi="o" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr2"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/gross_profit"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/tvGrossProfit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+            <EditText
+
+                android:id="@+id/etStockiestMargin"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="0"
+                android:layout_height="wrap_content"
+                android:background="#1a0202"
+                android:inputType="number"
+                android:textColor="#ffff"
+                android:importantForAutofill="no" tools:targetApi="o" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr3"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gross_investment"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr4"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/l3m_avg_sale"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etStock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:gravity="center"
+                android:text="0"
+
+                android:background="#1a0202"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr5"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/mkt_credit"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etCredit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr6"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/claim"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etClaim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr7"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_gross"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTotalGrossInvestment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr8"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="@string/credit_days"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr9"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+
+                android:text="@string/avg_credit_ext"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:id="@+id/tvStockiestCrMthlyValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etAvgCreditDays"
+                android:layout_marginLeft="10dp"
+
+                android:gravity="center"
+                android:text="0"
+                android:textStyle="bold"
+                android:background="#080808"
+                android:textColor="#ffff"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr10"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NET INVESTMENT"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTotalNetInvestment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr11"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="EXPENSE TOTAL"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr12"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="DIRECT EXPENSE"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr13"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="SALESMAN SALARY"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etSsmSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr14"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="DRIVER SALARY ALLOWANCES"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etDriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr15"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="DISCOUNT IN MARKET"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etMarketDiscount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr16"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="GODOWN RENT"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etGodownRent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr17"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="UNIT RUNNING EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etUnitExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr18"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="PRINTING STATIONARY"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etPrintStationaryExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/tr19"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL DIRECT EXP"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTotalDirect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr20"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="INDIRECT EXPENSE"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr21"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="MANAGER SALARY"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etManagerSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr22"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="ACCOUNTANT SALARY"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etAccountantSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr23"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="GODOWN KEEPER"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etGodownKeeper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr24"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="TOTAL TELEPHONE EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etTelephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr25"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="ELECTRICITY EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etElectricity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr26"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="LEGAL EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etLegal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr27"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="COMPUTER EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etComputer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr28"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="POSTAGE EXP"
+                android:textStyle="bold"
+                android:background="#0e1e02"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <EditText
+                android:id="@+id/etPostage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr29"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="COST OF BOWRROWING"
+                android:textStyle="bold"
+                android:background="#291010"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+            <EditText
+                android:id="@+id/etBorrowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+                android:gravity="center"
+                android:text="0"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr30"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="TOTAL INDIRECT EXP"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTotalIndirectExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr50"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="TOTAL DIRECT + INDIRECT EXP"
+                android:textStyle="bold"
+                android:background="#dc4f4f"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvTotalDirectIndirectExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tr31"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text="NET PROFIT(GROSS-TOTAL EXP)"
+                android:textStyle="bold"
+                android:background="#291010"
+                android:textColor="#ffff"
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tvNetProfit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tr32"
+            android:padding="2.5dp"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROI=NET PROFIT/NET INV"
+                android:textStyle="bold"
+                android:background="#291010"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/tvRoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:background="#1a0202"
+
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal"
+                android:textColor="#ffff"
+                android:layout_marginStart="4dp" tools:targetApi="o" />
+
+        </TableRow>
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:background="#FFC107"
+            android:text="Calculate" />
+
+
+
+    </TableLayout>
+</ScrollView>
+
+
+
+

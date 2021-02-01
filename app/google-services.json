@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551005825237",
+    "firebase_url": "https://daburemployee.firebaseio.com",
+    "project_id": "daburemployee",
+    "storage_bucket": "daburemployee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551005825237:android:241bd62196188ee97f1a5c",
+        "android_client_info": {
+          "package_name": "com.example.shiva.daburemployee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551005825237-e25ti5jichm3b79k79uopbdmohu400vc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shiva.daburemployee",
+            "certificate_hash": "e8d0868e2003466fc33a526cbf0733558a42be89"
+          }
+        },
+        {
+          "client_id": "551005825237-ervblo5uphkfk27mfrhmbt6ht1uf6qn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmWZ858upzY61kCQuTgLGRwbbsWJUoNTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551005825237-ervblo5uphkfk27mfrhmbt6ht1uf6qn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

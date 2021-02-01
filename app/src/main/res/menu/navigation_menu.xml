@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/myprofile"
+        android:title="@string/my_profile"
+        android:icon="@drawable/ic_person_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:icon="@drawable/ic_settings_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/editprofile"
+        android:title="@string/edit_profile"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/daburproduct"
+        android:title="Dabur Product"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/foodmarginchart"
+        android:title="FOOD'S Margin Chart"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/hcbasemarginchart"
+        android:title="HC BASE Margin Chart"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/hcotcmarginchart"
+        android:title="HC OTC Margin Chart"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+
+    <item
+        android:id="@+id/hpcmarginchart"
+        android:title="HPC Margin Chart"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/scheme"
+        android:title="Dabur Scheme"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/ssminaction"
+        android:title="SSM IN ACTION"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/newlaunch"
+        android:title="NEW LAUNCH"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/advertising"
+        android:title="ADVERTISING"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/schemecalculator"
+        android:title="SCHEME CALCULATOR"
+        android:icon="@drawable/ic_edit_black_24dp">
+    </item>
+
+
+
+</menu>

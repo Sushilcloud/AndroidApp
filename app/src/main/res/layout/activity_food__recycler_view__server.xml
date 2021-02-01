@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Food_RecyclerView_Server">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/image"
+        />
+
+    <Button
+        android:layout_marginTop="85dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/getrate"
+        android:background="#09320A"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:text="GET YOUR RATE HERE............"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerv_view">
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

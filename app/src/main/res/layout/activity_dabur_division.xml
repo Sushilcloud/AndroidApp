@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaburDivision">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back1"
+        tools:context=".DaburDivision">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:text="DABUR FOODS"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/ProductRecycler"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:text="HEALTH CARE"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:id="@+id/HealthCareRecycler"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="HAIR CARE"
+                android:textSize="20dp"
+                android:id="@+id/HairCareRecycler"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="SKIN CARE"
+                android:textSize="20dp"
+                android:id="@+id/SkinCare"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="ORAL CARE"
+                android:textSize="20dp"
+                android:id="@+id/OralCare"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="HOME CARE"
+                android:textSize="20dp"
+                android:id="@+id/HomeCare"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#e5f722"
+                android:textColor="#0F0101"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:text="ETHICAL"
+                android:textSize="20dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/daburlogo"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

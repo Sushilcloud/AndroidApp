@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".DaburLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/daburlogo"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true"
+        >
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:textSize="22sp"
+        android:layout_height="50dp"
+        android:hint="Email Address"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="20dp"
+        app:passwordToggleEnabled="true">
+
+    <EditText
+        android:id="@+id/password"
+        android:ems="10"
+        android:textSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password">
+
+    </EditText>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Remember UserName and Password"
+        android:id="@+id/rememberuser"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/login"
+        android:text="Login"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:textColor="#ffff"
+        android:textSize="22dp"
+        android:background="@color/btncolor"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Dont have Login Account? Register"
+        android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</ScrollView>

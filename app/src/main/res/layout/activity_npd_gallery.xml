@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    android:weightSum="100">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="900dp"
+    >
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        tools:ignore="Suspicious0dp"
+        android:layout_weight="95"
+        android:background="#e6f16c"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_description"
+        android:layout_gravity="center"
+
+        android:gravity="center"
+        android:background="#eff1dd"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="620dp"
+        android:text="DABUR INDIA LTD"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:textColor="#e45050"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/daburlogo"
+            android:layout_marginTop="680dp"/>
+
+</RelativeLayout>
+</ScrollView>

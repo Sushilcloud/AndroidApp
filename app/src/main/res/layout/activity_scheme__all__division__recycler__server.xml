@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/image"
+            />
+
+
+
+        <ImageButton
+            android:src="@drawable/hcbasesku"
+            android:id="@+id/hcbasesku"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageButton
+            android:src="@drawable/hc"
+            android:id="@+id/hcbase"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <ImageButton
+            android:src="@drawable/hcotcsku"
+
+            android:id="@+id/hcotcsku"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageButton
+            android:src="@drawable/hcotc"
+
+            android:id="@+id/hcotc"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <ImageButton
+            android:src="@drawable/foodskubase"
+            android:id="@+id/foodskubase"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <ImageButton
+            android:src="@drawable/food"
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageButton
+            android:src="@drawable/hpcsku"
+            android:id="@+id/hpcsku"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageButton
+            android:src="@drawable/hpc"
+            android:id="@+id/hpc"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>

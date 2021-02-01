@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shiva.daburemployee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DailySsmSummary"></activity>
+        <activity android:name=".DailyReport"></activity>
+        <activity android:name=".GalleryActivityServerGetRate" />
+        <activity android:name=".GetYourRateRecyclerView" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".MyfirebaseInstanceIdService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Real_Greetings_Pager" />
+        <activity android:name=".DaburLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BacktoBasic" />
+        <activity android:name=".SevenStepSales" />
+        <activity android:name=".ProductHomeCare" />
+        <activity android:name=".ProductOralCare" />
+        <activity android:name=".ProductSkinCare" />
+        <activity android:name=".ProductHairCare" />
+        <activity android:name=".healthcareproductdetails" />
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".DaburDivision" />
+        <activity android:name=".ProductDetailsRecycler" />
+        <activity android:name=".Hpc_RecyclerView_Server" />
+        <activity android:name=".Food_RecyclerView_Server" />
+        <activity android:name=".Hc_Otc_RecyclerView_Server" />
+        <activity android:name=".InfraCost" />
+        <activity android:name=".TradeCalculation" />
+        <activity android:name=".GalleryActivityServer" />
+        <activity android:name=".Hc_RecyclerView_Server" />
+        <activity android:name=".Hpc_Margin_Details" />
+        <activity android:name=".Hc_Otc_Margin_Details" />
+        <activity android:name=".Hc_Margin_Details" />
+        <activity android:name=".Foods_All_Margin_Details" />
+        <activity android:name=".HpcSsm_Incentive_Recycler_Server" />
+        <activity android:name=".HcSsm_Incentive_Recycler_Server" />
+        <activity android:name=".Scheme_All_Division_Recycler_Server" />
+        <activity android:name=".GalleryActivityServerSsmParameter" />
+        <activity android:name=".FoodSsm_Incentive_Recycler_Server" />
+        <activity android:name=".SsmParameter" />
+        <activity android:name=".NpdGalleryActivity" />
+        <activity android:name=".NewProductLaunch" />
+        <activity android:name=".Advertising" />
+        <activity android:name=".DaburGreetings" />
+        <activity android:name=".PagerView_HommadeProduct" />
+        <activity android:name=".ActiveProductPagerView" />
+        <activity android:name=".FoodProductsPagerView" />
+        <activity android:name=".GalleryActivityServerBanner" />
+        <activity android:name=".RecyclerAdapterServerBanner" />
+        <activity android:name=".WelcomeScreen" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

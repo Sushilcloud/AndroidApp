@@ -1,0 +1,767 @@
+<resources>
+    <string name="app_name">DaburEmployee</string>
+
+    <string name="Open">EmpMyDabur</string>
+    <string name="Close">EmpMyDabur</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="settings">Settings</string>
+    <string name="my_profile">My Profile</string>
+
+    <string-array name="StockiestName">
+        <item>SHER I PUNJAB AGENCIES</item>
+        <item>MAA BHUVNESHWARI</item>
+        <item>MAHADEV ENT</item>
+        <item>TUSHAR TRADING</item>
+        <item>DURGA AGENCIES</item>
+        <item>GUPTA COMPANY</item>
+        <item>GAURI TRADERS</item>
+        <item>SHANTI ENTERPRISE</item>
+        <item>7 STAR</item>
+        <item>JM DISTRIBUTOR</item>
+
+    </string-array>
+    <string name="npd">NEW PRODUCT</string>
+    <string name="enter_ssm_name">Enter SSm Name</string>
+    <string name="enter_stockiest_name">Enter Stockiest Name</string>
+    <string name="enter_hommade_today_eco">Enter Hommade ECO</string>
+    <string name="enter_active_today_eco">Enter Active Eco</string>
+    <string name="enter_tomatopuree_today_eco">Enter TomatoPuree Eco</string>
+    <string name="enter_coconutwater_today_eco">Enter Coconutwater Eco</string>
+    <string name="submit">SUBMIT</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <string-array name="MrpList">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>25</item>
+        <item>99</item>
+        <item>109</item>
+        <item>120</item>
+        <item>125</item>
+        <item>110</item>
+        <item>22</item>
+        <item>23</item>
+        <item>44</item>
+        <item>70</item>
+        <item>75</item>
+    </string-array>
+
+    <string name="header_msg">MY DABUR</string>
+    <string name="footer_msg">MY DABUR</string>
+
+
+    <string name="rate_calculation">Scheme Calculation</string>
+    <string name="dailyusr">Daily Usr Report</string>
+    <string name="dailyssm">Daily SSM Summary</string>
+
+    <string name="mrp">MRP</string>
+    <string name="upc">UPC</string>
+    <string name="scheme">ENTER SCHEME</string>
+    <string name="qty">ENTER QTY HERE</string>
+    <string name="gross">GROSS</string>
+    <string name="gstamnt">GST AMNT</string>
+    <string name="head">HEAD</string>
+    <string name="mrgn">RETAILER MARGIN</string>
+    <string name="rate">RATE</string>
+    <string name="sch">SCH</string>
+    <string name="pcsrate">PER PCS</string>
+    <string name="caserate">PER CASE</string>
+    <string name="schamnt">SCHAMNT</string>
+    <string name="netamnt">NETAMNT</string>
+    <string name="gst">GST</string>
+    <string name="amount">AMOUNT</string>
+    <string name="rateaftercd">Rate After CD</string>
+    <string name="freeissue">Free Issue</string>
+    <string name="rateafterfreeissue">Rate After Free Issue</string>
+
+    <string name="enter_quantity">QUANTITY</string>
+    <string name="orangeltr">orangeltr</string>
+
+    <string-array name="fruit_name">
+
+        <item>DABUR FOODS</item>
+        <item>REAL LTR</item>
+
+        <item>ORANGE LTR      "\n"      MRP 105   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>MANGO LTR       "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>MIX LTR MRP     "\n"      MRP 105   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>PINEAPPLE LTR   "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>GUAVA LTR MRP   "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>LITCHI LTR MRP  "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>APPLE LTR MRP   "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>POMEGRANATE LTR "\n"      MRP 110   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>MOSAMBI LTR MRP "\n"      MRP 110   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>GRAPE LTR MRP   "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>JAMUN LTR MRP   "\n"      MRP 149   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>TOMATO LTR MRP  "\n"      MRP 100   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>CRANBERRY LTR MRP  "\n"   MRP 110   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+
+        <item>APRICOT LTR MRP "\n"             MRP 105  "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+        <item>ALPHANSO MANGO LTR MRP "\n"      MRP 109  "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+        <item>MASALA GUAVA LTR MRP "\n"        MRP 99   "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+        <item>MASALA POME LTR MRP "\n"         MRP 109  "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+        <item>MASALA MIX LTR MRP "\n"          MRP 99   "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+        <item>MIX BARRIES LTR MRP "\n"         MRP 110  "\n"   UNIT PER CASE 12 "\n"   RETMARGIN 15%</item>
+
+        <item>ORANGE 200ML    "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>MANGO 200ML     "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>MIX 200ML       "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>PINEAPPLE 200ML "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>GUAVA 200ML     "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>LITCHI 200ML    "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>APPLE 200ML     "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+
+        <item>POMEGRANATE 200ML     "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>MOSAMBI 200ML         "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>GRAPE 200ML           "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>JAMUN 200ML           "\n"      MRP 20   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+        <item>CRANBERRY 200ML       "\n"      MRP 25   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 15%</item>
+
+        <item>COCONUT WATER 200ML       "\n"      MRP 40   "\n"   UNIT PER CASE 60 "\n"    RETMARGIN 10%</item>
+
+
+        <item>ACTIVE MIX LTR            "\n"      MRP 130   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>ACTIVE ORANGE LTR         "\n"      MRP 130   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>ACTIVE ORANGE CARROT LTR  "\n"      MRP 130   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>ACTIVE BEETROOT LTR       "\n"      MRP 130   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>ACTIVE CUCUMBER LTR       "\n"      MRP 130   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+
+        <item>ACTIVE MULTI FIBER   LTR       "\n"      MRP 135   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+        <item>ACTIVE ORANGE CITRUS LTR       "\n"      MRP 135   "\n"   UNIT PER CASE 12 "\n"    RETMARGIN 15%</item>
+
+
+        <item>HOMMADE GINGER GARLIC 200GM         "\n"      MRP 44   "\n"   UNIT PER CASE 60 "\n"    RETMARGIN 15%</item>
+        <item>HOMMADE GINGER GARLIC 100GM         "\n"      MRP 22   "\n"   UNIT PER CASE 120 "\n"    RETMARGIN 15%</item>
+        <item>HOMMADE GINGER 200GM                "\n"      MRP 44   "\n"   UNIT PER CASE 60 "\n"    RETMARGIN 15%</item>
+        <item>HOMMADE GARLIC 200GM                "\n"      MRP 44   "\n"   UNIT PER CASE 60 "\n"    RETMARGIN 15%</item>
+
+        <item>HOMMADE TOMATO PUREE                "\n"      MRP 25   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 10%</item>
+        <item>HOMMADE COCONUT MILK                "\n"      MRP 75   "\n"   UNIT PER CASE 30 "\n"    RETMARGIN 12%</item>
+        <item>HOMMADE LEMONEEZ                    "\n"      MRP 70   "\n"   UNIT PER CASE 24 "\n"    RETMARGIN 15%</item>
+        <item>HOMMADE TAMRIND                     "\n"      MRP 44   "\n"   UNIT PER CASE 60 "\n"    RETMARGIN 15%</item>
+        <item>DABUR HEALTH   "\n"  CARE</item>
+
+        <item>CHYAWANPRASH                         "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 14% </item>
+        <item>HONEY                                "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 12% </item>
+        <item>GLUCOSE                              "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 12% </item>
+        <item>HAJMOLA JAR                          "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 15% </item>
+        <item>HAJMOLA CANDY                        "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>PUDIN HARA                           "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 20% </item>
+        <item>PUDIN HARA      "\n"  LEMON FIZZ     "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 20% </item>
+        <item>ISABGOL                              "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>NATURECARE                           "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>NATURECARE REGULAR                   "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>NATURE CARE ISABGOL POWDER           "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+
+        <item>HONITUS SYRUP                        "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 20% </item>
+        <item>HONITUS DROP                         "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 20% </item>
+        <item>HONITUS MADHUWANI                    "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 20% </item>
+        <item>SHILAJIT TAB                         "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>SHILAJIT OIL                         "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+
+        <item>DASHMULARISHT                        "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>ACTIVE BLOOD PURIFIER                "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>ASHOKARISHTA                         "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+
+        <item>LALTAIL                              "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN 16% </item>
+        <item>JANAMGHUTTI                          "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>GRIPE WATER                          "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+        <item>MESSAGE OIL                          "\n"     MRP      "\n"   UNIT PER CASE     "\n"    RETMARGIN     </item>
+
+        <item>DABUR HAIR   "\n"  CARE</item>
+
+        <item>AMLA HAIR OIL                        "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA COCONUT OIL                   "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>ALMOND HAIR OIL                      "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA OLIVE HAIR OIL                "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA JASMINE OIL                   "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA COCONUT HIBISCUS              "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA COCONUT OIL                   "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA B AND B                       "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+
+        <item>VATIKA ALMOND SHAMPOO                "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA HEALTH SHAMPOO                "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA BLACK SHINE SHAMPOO           "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>VATIKA DANDRUFF SHAMPOO              "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+
+        <item>DABUR SKIN CARE</item>
+
+        <item>FEM FAIRNESS NATURALS GOLD BLEACH    "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>DABUR GULABARI ROSE WATER            "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>OXYLIFE FACIAL                       "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>DABUR GULABARI ROSE FRESHENER        "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>OXY BLEACH                           "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>DABUR GULABARI MOISTURISING CREAM    "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>FEM NATURALS PEARL BLEACH            "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>DABUR MOISTURISING LOTION            "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>FEM NATURALS SAFFRON BLEACH          "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+        <item>FEM NATURALS TURMERIC HERBAL BLEACH  "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN  </item>
+
+        <item>FEM ANTI DARKENING HAIR REMOVAL CREAM (SANDAL)     "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>FEM ANTI DARKENING HAIR REMOVAL CREAM (TURMERIC)   "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>FEM ANTI DARKENING HAIR REMOVAL CREAM (GOLD)       "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>FEM ANTI DARKENING HAIR REMOVAL CREAM (ROSE)       "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>FEM PEARL FACIAL KIT                               "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+
+        <item>DABUR ORAL CARE</item>
+
+        <item>DABUR RED PASTE           "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>DABUR LAL DANT MANJAN     "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>DABUR MESWAK              "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>DABUR BABOOL TOOTHPASTE   "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+
+        <item>DABUR HOME CARE</item>
+        <item>ODONIL                    "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>ODOMOS                    "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>SAINIFRESH SHINE          "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+
+        <item>ODONIL OCCASIONS          "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+        <item>ODOPIC                    "\n"      MRP    "\n"   UNIT PER CASE  "\n"    RETMARGIN </item>
+
+    </string-array>
+
+    <string name="beat_name">Beat</string>
+    <string name="InfraCost">ROI</string>
+    <string name="compititive">Competition Info</string>
+    <string name="stclosingstock">Stockiest Stock</string>
+    <string name="focus_brand">FOCUS BRAND</string>
+
+    <string name="ssm_parameter">SSM PARAMETER</string>
+    <string name="outlet_details">OUTLET DETAILS</string>
+    <string name="market_damage">Market Damage</string>
+    <string name="casa_brand">CASA BRAND</string>
+    <string name="market_order">Market Order</string>
+    <string name="product_details">PRODUCT DETAILS</string>
+
+
+    //STRING FOR MARKET ORDER
+
+
+    <string name="mosambiltr">MosambiLtr</string>
+    <string name="grapeltr">GrapeLtr</string>
+    <string name="pomeltr">PomeLtr</string>
+    <string name="litchiltr">LitchiLtr</string>
+    <string name="guavaltr">GuavaLtr</string>
+    <string name="pineappleltr">PineappleLtr</string>
+    <string name="mixltr">MixLtr</string>
+    <string name="mangoltr">MangoLtr</string>
+
+    <string name="lemoneez">LEMONEEZ</string>
+
+    <string name="gg05">GG05</string>
+    <string name="gg100">GINGER GARLIC 100GM</string>
+
+
+    <string name="peach">PEACH</string>
+    <string name="apricot">APRICOT</string>
+    <string name="plum">PLUM</string>
+    <string name="mixberries">MIX BERRIES</string>
+    <string name="pinkguava">PINK GUAVA</string>
+    <string name="amlaplusltr">AMLA PLUS LTR</string>
+    <string name="amlaplus180ml">AMLA PLUS 180ml</string>
+
+    <string name="immunity">IMMUNITY JUICE</string>
+    <string name="real180ml">REAL 180ml</string>
+
+    <string name="active200ml">ACTIVE 200ml</string>
+
+    <string name="multifiber200ml">MULTIFIBER 200ml</string>
+    <string name="activeapple200ml">ACT APPLE 200ml</string>
+    <string name="coconutwater200ml">COCONUTWATER 200ml</string>
+    <string name="coconutwatertetra">COCONUTWATER TETRA</string>
+    <string name="actmix200ml">ACT MIX 200ml</string>
+    <string name="multifiber">MultiFiber</string>
+
+    <string name="actmixltr">Act MIX LTR</string>
+    <string name="orangecarrot">OrangeCarrot</string>
+    <string name="actorangeltr">ActOrangeLtr</string>
+    <string name="mosambi200ml">Mosambi200ml</string>
+    <string name="grape200ml">Grape200ml</string>
+    <string name="pome200ml">Pome200ml</string>
+    <string name="litchi200ml">Litchi200ml</string>
+    <string name="guava200ml">Guava200ml</string>
+    <string name="pineapple200ml">Pineapple200ml</string>
+
+
+    <string name="mix200ml">Mix200ml</string>
+    <string name="mango200ml">mango200ml</string>
+    <string name="actappleltr">ActAppleLtr</string>
+    <string name="orange200ml">Orange200ml</string>
+    <string name="Ginger200">GINGER 200GM</string>
+
+    <string name="enter_town_name">Enter Town Name</string>
+
+    <string name="enter_stockiest_code">Enter Stockiest Code</string>
+    <string name="apple200ml">Apple200ml</string>
+    <string name="appleltr">AppleLtr</string>
+    <string name="avg_business_turnover">AVG BUSINESS TURNOVER</string>
+    <string name="avg_businesurnover">AVG BUSINESURNOVER</string>
+
+    <string name="value">Value</string>
+    <string name="entervalue">EnterValue</string>
+
+    <string name="cd">CD</string>
+    <string name="dt">DT</string>
+
+    <string name="mango">MANGO</string>
+    <string name="mix">MIX</string>
+
+
+    <string name="real_active">REAL ACTIVE</string>
+
+    <string name="hommade_paste">HOMMADE PASTE</string>
+    <string name="gg200">GINER GARLIC G200</string>
+    <string name="_200ml">200ML</string>
+    <string name="guava">GUAVA</string>
+
+
+    <string name="act_orange_carrot">ACT ORANGE CARROT</string>
+
+    <string name="orange_carrot">ACT ORANGE CARROT</string>
+    <string name="act_beetroot">ACT BEETROOT CARROT</string>
+    <string name="act_cucumber">ACT CUCUMBER</string>
+
+    <string name="orange_citrus">ORANGE CITRUS</string>
+    <string name="coconut_water">COCONUT WATER</string>
+    <string name="active_200ml">ACT 200ML</string>
+
+    <string name="_125">125</string>
+    <string name="multi_fiber">ACT MULTI FIBER</string>
+    <string name="active_fiber">ACT FIBER</string>
+
+    <string name="act_mix">ACT MIX</string>
+
+
+    <string name="active_orange">ACTIVE ORANGE</string>
+
+    <string name="mosambi">MOSAMBI</string>
+    <string name="active_apple">ACTIVE APPLE</string>
+
+    <string name="real_ltr">REAL ( LTR )</string>
+    <string name="real_200ml">REAL ( 200ml )</string>
+    <string name="grape">GRAPE</string>
+    <string name="jamun">JAMUN</string>
+
+    <string name="masalaguava">MASALA GUAVA</string>
+    <string name="masalapome">MASALA POME</string>
+    <string name="alphansoltr">MANGO ALPHANSO</string>
+    <string name="masalamix">MASALA MIX</string>
+
+    <string name="realdrink150ml">KHOOLER 150ML</string>
+    <string name="khooler150ml">KHOOLER 150ML</string>
+
+    <string name="chutney">CHUTNEY</string>
+    <string name="sweettomato">SWEET TOMATO</string>
+    <string name="garlicchutney">GARLIC CHUTNEY</string>
+    <string name="corainder">CORAINDER</string>
+
+    <string name="jamun200ml">JAMUN200ml</string>
+    <string name="pomegranate">POMEGRANATE</string>
+    <string name="garlic200">GARLIC 200GM</string>
+    <string name="tamrind">TAMRIND</string>
+    <string name="tp">TOMATO PUREE</string>
+    <string name="cm">COCONUT MILK</string>
+    <string name="capsico">CAPSICO</string>
+    <string name="apple">APPLE</string>
+    <string name="cranberry">CRANBERRY</string>
+    <string name="gg25">GINGER GARLIC 25</string>
+    <string name="litchi">LITCHI</string>
+    <string name="code">Code</string>
+    <string name="date">Date</string>
+    <string name="Rs99">99</string>
+    <string name="Rs65">65</string>
+    <string name="Rs48">48</string>
+    <string name="Rs105">105</string>
+    <string name="Rs100">100</string>
+    <string name="Rs300">300</string>
+    <string name="Rs40">40</string>
+    <string name="Rs45">45</string>
+    <string name="Rs46">46</string>
+    <string name="Rs22">22</string>
+    <string name="Rs23">22</string>
+    <string name="Rs24">24</string>
+    <string name="Rs75">75</string>
+    <string name="Rs5">5</string>
+    <string name="Rs30">30</string>
+    <string name="Rs149">149</string>
+    <string name="Rs70">70</string>
+    <string name="Rs109">109</string>
+    <string name="Rs44">44</string>
+    <string name="Rs25">25</string>
+    <string name="Rs20">20</string>
+    <string name="Rs120">120</string>
+    <string name="Rs125">125</string>
+    <string name="Rs130">130</string>
+    <string name="Rs135">135</string>
+    <string name="Rs110">110</string>
+    <string name="Rs115">115</string>
+    <string name="Rs640">640</string>
+    <string name="Rs36">36</string>
+    <string name="Rs96">96</string>
+    <string name="Rs16">16</string>
+
+    <string name="pineapple">PINEAPPLE</string>
+    <string name="orange">ORANGE</string>
+    <string name="product">PRODUCT</string>
+
+
+    <string name="Rs12">12</string>
+    <string name="Rs60">60</string>
+
+    <string name="ltr">LTR</string>
+
+    <string name="Tomato">TOMATO</string>
+    <string name="enter_outlet_name">Outlet Name</string>
+
+    // Hc Margin Details String
+
+    <string name="honey">HONEY</string>
+    <string name="honey1kg">HONEY 1 kG</string>
+    <string name="Rs395">395</string>
+    <string name="honey500gm">HONEY 500GM</string>
+    <string name="Rs199">199</string>
+
+    <string name="honey250gm">HONEY 500GM</string>
+    <string name="R99">99</string>
+
+    <string name="honey100gm">HONEY 100GM</string>
+    <string name="Rs62">62</string>
+
+    <string name="honey50gm">HONEY 50GM</string>
+    <string name="Rs37">37</string>
+
+    <string name="honey20gm">HONEY 20GM</string>
+    <string name="Rs17">17</string>
+    <string name="Rs6">6</string>
+    <string name="Rs4">4</string>
+    <string name="Rs9">9</string>
+    <string name="Rs72">72</string>
+    <string name="Rs32">32</string>
+
+    <string name="honey10gm">HONEY 10GM</string>
+
+    <string name="naturecare">NATURE CARE</string>
+    <string name="Rs10">10</string>
+
+    <string name="Rs63">63</string>
+    <string name="Rs336">336</string>
+
+
+    <string name="hajmola_candy">HAJMOLA CANDY</string>
+
+    <string name="mahacandy500">HAJ MAHA CANDY 500</string>
+    <string name="Rs500">500</string>
+
+    <string name="mahacandy250">HAJ MAHA CANDY 250</string>
+    <string name="Rs250">250</string>
+
+    <string name="mahacandy130">HAJ MAHA CANDY 130</string>
+
+    <string name="mahacandy90">HAJ MAHA CANDY 90</string>
+    <string name="Rs90">90</string>
+
+    <string name="mahacandy50">HAJ MAHA CANDY 50</string>
+    <string name="Rs50">50</string>
+
+
+    <string name="hajmola_tablet">HAJMOLA TABLET</string>
+
+    <string name="hajtab20">HAJ TABLET 20Sach</string>
+
+    <string name="hajtab120">HAJ TABLET 120</string>
+    <string name="Rs35">35</string>
+
+    <string name="hajtab160">HAJ TABLET 160</string>
+    <string name="Rs160">160</string>
+
+    <string name="keorawater">KEORA WATER 250ML</string>
+
+    <string name="sharabat">SHARABAT E AJAM</string>
+    <string name="Rs140">140</string>
+
+    <string name="chawayanprash">CHYWANPRASH</string>
+
+
+    <string name="chywanprash1kg">CHYWANPRASH 1KG</string>
+    <string name="Rs325">325</string>
+
+    <string name="chywanprash500gm">CHYWANPRASH 500GM</string>
+    <string name="Rs180">180</string>
+
+    <string name="chywanprash250gm">CHYWANPRASH 250GM</string>
+    <string name="Rs95">95</string>
+
+
+    <string name="glucoplus">GLUCOPLUS C</string>
+
+    <string name="glucopluslemon1kg">GLUCO+C LEMON 1KG+SIP</string>
+    <string name="Rs305">305</string>
+
+    <string name="glucoplus500gm">GLUCO+C 500GM+SIP</string>
+
+    <string name="glucoplus200gm">GLUCO+C 200GM+50GM</string>
+    <string name="Rs64">64</string>
+
+    <string name="glucoplus75gm">GLUCO +C 75GM</string>
+
+    <string name="glucosed">GLUCOSE D</string>
+
+    <string name="glucosed2kg">GLU-D 2KG+Gl+C250gmPromo</string>
+    <string name="Rs320">320</string>
+
+    <string name="glucosed1kg">GLU-D 1KGJar+CpRTP200gm</string>
+    <string name="Rs195">195</string>
+    <string name="Rs28">28</string>
+    <string name="Rs144">144</string>
+    <string name="Rs192">192</string>
+    <string name="Rs288">288</string>
+
+    <string name="glucosed450gm">GLU-D 450GMJar+CP50gm</string>
+
+    <string name="glucosed200gm">GLU-D 200GMJar+CP50gm</string>
+    <string name="Rs58">58</string>
+
+    <string name="glucosed75gm">GLUCOSE-D 75GM</string>
+    <string name="Rs27">27</string>
+
+    <string name="laltail">DABUR LAL TAIL</string>
+
+    <string name="laltail500ml">LALTAIL 500ML</string>
+    <string name="Rs360">360</string>
+
+    <string name="laltail200ml">LALTAIL 200ML</string>
+    <string name="Rs175">175</string>
+
+    <string name="laltail100ml">LALTAIL 100ML</string>
+
+    <string name="laltail50ml">LALTAIL 50ML</string>
+
+    <string name="laltail25ml">LALTAIL 25ML</string>
+
+    <string name="odomos">ODOMOS</string>
+
+    <string name="odonaturalcrm100gm">NATURAL CRM 100GM</string>
+    <string name="Rs92">92</string>
+
+    <string name="odonaturalgel80gm">NATURAL GEL 80GM</string>
+
+    <string name="odonaturalcrm50gm">NATURAL CRM 50GM</string>
+
+    <string name="odonaturalcrm25gm">NATURAL CRM 25GM</string>
+
+    <string name="odonaturalcrm15gm">ODOMOS CREAM 15GM</string>
+    <string name="Rs15">15</string>
+
+    <string name="odomosspray100ml">ODOMOS SPRAY 100ML</string>
+    <string name="Rs85">85</string>
+
+    <string name="odomosrollon8ml">ODOMOS ROLLON 8ML</string>
+
+    <string name="odomoslotion120ml">ODOMOS LOTION 120ML</string>
+
+    <string name="odomoslotion60ml">ODOMOS LOTION 60ML</string>
+
+    <string name="odomosoiljar40ml">ODOMOS OIL JAR 40ML</string>
+
+
+    // HC OTC Margin Details
+
+    <string name="pudinhara">PUDIN HARA</string>
+
+    <string name="pudinharaactive10ml">PUDIN HARA ACT 10ML</string>
+    <string name="pudinharaactive30ml">PUDIN HARA ACT 30ML</string>
+    <string name="Rs49">49</string>
+
+    <string name="pudinharastrip40">PUDIN HARA(10*40)STRIP</string>
+
+    <string name="herbalantiacid">HERBAL ANTACID 170ML</string>
+    <string name="Rs76">76</string>
+
+    <string name="hingoli200jar">HINGOLI 200 SACH..</string>
+    <string name="Rs200">200</string>
+
+    <string name="hingoli120jar">HINGOLI 120 SACH..</string>
+
+    <string name="hingoli90tab">HINGOLI 90 TAB..</string>
+
+    <string name="satisabgol">SAT ISABGOL..</string>
+
+    <string name="isabgol200">SAT ISABGOL 200gm..</string>
+    <string name="Rs190">190</string>
+
+    <string name="isabgol100">SAT ISABGOL 100gm..</string>
+
+    <string name="isabgol50">SAT ISABGOL 50gm..</string>
+    <string name="Rs55">55</string>
+
+    <string name="naturecare375gm">NATURE CARE 375gm..</string>
+    <string name="naturecare100gm">NATURE CARE 100gm..</string>
+
+    <string name="naturecaredoubleaction100gm">NAT DOUBLE ACT 100gm..</string>
+
+
+    <string name="bloodpurifier200ml">BLOOD PURIFIER 200ml..</string>
+
+    <string name="bloodpurifier100ml">BLOOD PURIFIER 100ml..</string>
+    <string name="Rs56">56</string>
+
+    <string name="coughsyrup">COUGH SYRUP</string>
+    <string name="honitus200ml">COUGH SYRUP 200ml..</string>
+    <string name="Rs155">155</string>
+
+    <string name="honitus100ml">COUGH SYRUP 100ml..</string>
+
+    <string name="hotsip4gm7sach">HOT SIP 4gm*7 Sach..</string>
+
+    <string name="hotsip30n4sach">HOT SIP 30N*4g Sach..</string>
+    <string name="Rs240">240</string>
+
+    <string name="coughdrops">COUGH DROPS</string>
+
+    <string name="honituscoughdrops500jar">COUGH DROPS 500jar.</string>
+    <string name="honituscoughdrops300jar">COUGH DROPS 300jar.</string>
+    <string name="honituscoughdrops100jar">COUGH DROPS 100jar.</string>
+
+
+    <string name="ashokarishta">ASHOKARISHTA</string>
+
+    <string name="Ashokarishta225ml">ASHOKARISHTA 225ml</string>
+    <string name="Rs66">66</string>
+
+    <string name="Ashokarishta450ml">ASHOKARISHTA 450ml</string>
+    <string name="Rs112">112</string>
+
+    <string name="Ashokarishta680ml">ASHOKARISHTA 680ml</string>
+    <string name="Rs133">133</string>
+
+    <string name="badamtail">BADAM TAIL</string>
+    <string name="badamtail100ml">BADAM TAIL 100ml</string>
+    <string name="Rs378">378</string>
+
+    <string name="badamtail50ml">BADAM TAIL 50ml</string>
+    <string name="Rs197">197</string>
+
+    <string name="badamtail25ml">BADAM TAIL 25ml</string>
+    <string name="Rs103">103</string>
+
+    <string name="janmaghuti">JANMA GHUNTI</string>
+
+    <string name="janmaghunti125ml">JANMA GHUNTI 125ml</string>
+    <string name="janmaghunti60ml">JANMA GHUNTI 60ml</string>
+    <string name="janmaghunti30ml">JANMA GHUNTI 30ml</string>
+
+
+    <string name="gripewaterl25ml">GRIPE WATER 125ml</string>
+
+    <string name="juritap30ml">JURI TAP 30ml</string>
+    <string name="Rs43">43</string>
+
+    <string name="shilajit30caps">SHILAJIT 30 CAPS</string>
+
+    <string name="ShilajatwadiBatiGold2gm">SHILAJIT GOLD 2gm</string>
+    <string name="Rs585">585</string>
+
+    <string name="Shilaxoil20ml">SHILAX OIL 20ml</string>
+
+    <string name="Rs171">171</string>
+
+    <string name="mahabhringrajoil">MAHABHRINGRAJ</string>
+
+    <string name="mahabhringrajoil100ml">MAHABHRINGRAJ OIL 100ml</string>
+
+    <string name="mahabhringrajoil200ml">MAHABHRINGRAJ OIL 200ml</string>
+    <string name="mahabhringrajoil300ml">MAHABHRINGRAJ OIL 300ml</string>
+
+    <string name="honitusmadhuvaani150gm">MADHUVAANI 150gm</string>
+    <string name="Rs88">88</string>
+
+    <string name="ringring10gm">RING RING 10gm</string>
+
+    <string name="keratexoil100ml">KERATEX 100ml</string>
+
+    <string name="lavanbhaskar">AVAN BHASKAR</string>
+
+    <string name="lavanbhaskar30gm">LAVAN BHASKAR 30gm</string>
+    <string name="lavanbhaskar60gm">LAVAN BHASKAR 60gm</string>
+    <string name="Rs54">54</string>
+    <string name="lavanbhaskar120gm">LAVAN BHASKAR 120gm</string>
+    <string name="Rs84">84</string>
+    <string name="lavanbhaskar500gm">LAVAN BHASKAR 500gm</string>
+    <string name="Rs245">245</string>
+
+    <string name="trifala">TRIFALA</string>
+
+    <string name="trifala60gm">TRIFALA 60gm</string>
+    <string name="trifala120gm">TRIFALA 120gm</string>
+
+    <string name="trifala500gm">TRIFALA 500gm</string>
+
+    <string name="Rs153">153</string>
+
+    <string name="mahanarayantail">MAHANARAYAN TAIL</string>
+
+    <string name="mahanarayantail50ml">MAHANARAYAN TAIL 50ml</string>
+    <string name="mahanarayantail100ml">MAHANARAYAN TAIL 100ml</string>
+
+    <string name="WomanRestorativeTonics">Woman Restorative Tonics</string>
+
+    <string name="restora250ml">RESTORA 250ml</string>
+    <string name="restora450ml">RESTORA 450ml</string>
+    <string name="Rs253">253</string>
+
+
+    // STRING FOR HPC DETAILS
+
+    <string name="brahmiamla">BRAHMI AMLA</string>
+
+    <string name="brahmiAmlaHO40ml">BRAHMI AMLA HO 40ml</string>
+
+    <string name="brahmiAmlaHO80ml">BRAHMI AMLA HO 80ml</string>
+
+    <string name="brahmiAmlaHO175ml">BRAHMI AMLA HO 175ml</string>
+
+    <string name="brahmiAmlaHO500ml">BRAHMI AMLA HO 500ml</string>
+
+    <string name="anmolcoconut">ANMOL COCONUT OIL</string>
+
+    <string name="AGCoconutOil3mlSacBlue">AG COCONUT OIL 3ml</string>
+    <string name="Rs1">1</string>
+    <string name="Rs1440">1440</string>
+
+    <string name="AnmolGoldCoconutOil50ml">AG Coconut Oil 50ml</string>
+    <string name="AnmolJasmineHairOil40m">JASMINE HAIR Oil 40ml</string>
+
+    <string name="AnmolGoldCoconutOil100mlPouch">AG COCONUT Oil 100ml</string>
+
+
+    <string name="AnmolJas100mlRedPaste20gpromo">Jas100ml Red Paste20g promo</string>
+
+    <string name="AnmolGoldCoconutOil100mlYellow">AG COCONUT OIL 100ml</string>
+
+    <string name="AnmolJasmineHairOil200mlBlue">JASMINE HAIR OIL 200ml</string>
+
+    <string name="AnmolJasmineHairOil450ml">JASMINE HAIR OIL 450ml</string>
+
+    <string name="Anmol500mlWMY100mlpromo">ANMOL 500ml 100ml Promo</string>
+
+    <string name="AnmolGoldCoconutOil500ml">AG COCONUT OIL 500ml</string>
+    <string name="Rs185">185</string>
+
+
+    //STRING END HERE FOR MARKET ORDE
+
+    <string name="avg_credit_ext">AVG CR EXT IN VALUE(MONTHLY)</string>
+    <string name="gross_profit">GROSS PROFIT</string>
+    <string name="gross_investment">GROSS INVESTMENT</string>
+    <string name="l3m_avg_sale">STOCK(NEXT L3M AVG SALES)</string>
+    <string name="mkt_credit">MARKET CREDIT)</string>
+    <string name="claim">CLAIM(PAST L3M AV SALE)</string>
+    <string name="total_gross">TOTAL GROSS</string>
+    <string name="credit_days">CREDIT FROM COMPANY</string>
+
+
+</resources>
